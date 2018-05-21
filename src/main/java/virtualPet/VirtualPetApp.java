@@ -36,11 +36,11 @@ public class VirtualPetApp {
 
 			} else if (choice.equals("2")) {
 				System.out.println("I'm bored, play with me!");
-				myVirtualPet.activity(50);  
+				myVirtualPet.play();  
 				
 			} else if (choice.equals("3")) {
 				System.out.println("I'm tired, put me to bed!");
-				myVirtualPet.tired100(); 
+				myVirtualPet.sleep(50); 
 				
 			} else if (choice.equals("4")) {
 				System.out.println("I'm happy! I love you!");
