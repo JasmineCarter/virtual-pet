@@ -1,6 +1,6 @@
-hunger - food & water --- 4 tests - all pass
-play - 1 test -- all pass
-tired - 2 tests --- all pass
+hunger - food & water ---  - all pass
+play -  -- all pass
+tired -  --- all pass
 
 tick -- ALL PASS
 
@@ -16,5 +16,5 @@ Menu:
 4. I'm Happy!(Do nothing)
 
 
-**still need to do loop
+**still need to do loop --done 
 

@@ -18,7 +18,8 @@ public class VirtualPetApp {
 		System.out.println("My sleepiness level is " + myVirtualPet.getTired());
 		System.out.println();
 		System.out.println("The closer each level is to 0 the happier I will be...and the more I will love you!!");
-
+		System.out.println();
+		
 		String choice;
 
 		do {
@@ -49,9 +50,9 @@ public class VirtualPetApp {
 				System.out.println(("Goodbye! I'll miss you!"));
 			}
 			
-			System.out.println("My hunger level is " + myVirtualPet.getHunger());
-			System.out.println("My boredom level is " + myVirtualPet.getActivity());
-			System.out.println("My sleepiness level is " + myVirtualPet.getTired());
+			System.out.println("Thanks for feeding me! My hunger level is now " + myVirtualPet.getHunger());
+			System.out.println("Thanks for playing with me! My boredom level is now " + myVirtualPet.getActivity());
+			System.out.println("Thanks for letting me get some rest! My sleepiness level is now " + myVirtualPet.getTired());
 
 		} while (!choice.equals("5"));
 	}
