@@ -25,7 +25,7 @@ public class VirtualPet {
 	public void play() {
 		hunger += 20;
 		tired += 15;
-		activity -= 10; 
+		activity -= 10;
 
 	}
 
