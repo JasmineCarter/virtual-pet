@@ -32,28 +32,30 @@ public class VirtualPetApp {
 			choice = input.nextLine();
 
 			if (choice.equals("1")) {
-				System.out.println("I'm hungry, feed me! ");
+				System.out.println("I'm full!");
 				myVirtualPet.feed(50);
 
 			} else if (choice.equals("2")) {
-				System.out.println("I'm bored, play with me!");
+				System.out.println("Yayy that was so much fun!");
 				myVirtualPet.play();  
 				
 			} else if (choice.equals("3")) {
-				System.out.println("I'm tired, put me to bed!");
+				System.out.println("Goodnight!");
 				myVirtualPet.sleep(50); 
 				
 			} else if (choice.equals("4")) {
-				System.out.println("I'm happy! I love you!");
+				System.out.println("I love you!");
 
 			} else {
-				System.out.println(("Goodbye! I'll miss you!"));
+				System.out.println(("I'll miss you!"));
 			}
 			
-			System.out.println("Thanks for feeding me! My hunger level is now " + myVirtualPet.getHunger());
-			System.out.println("Thanks for playing with me! My boredom level is now " + myVirtualPet.getActivity());
-			System.out.println("Thanks for letting me get some rest! My sleepiness level is now " + myVirtualPet.getTired());
-
+			System.out.println();
+			System.out.println("My updated hunger level is now " + myVirtualPet.getHunger());
+			System.out.println("My updated boredom level is now " + myVirtualPet.getActivity());
+			System.out.println("My updated sleepiness level is now  " + myVirtualPet.getTired());
+			System.out.println();
+			
 		} while (!choice.equals("5"));
 	}
 
