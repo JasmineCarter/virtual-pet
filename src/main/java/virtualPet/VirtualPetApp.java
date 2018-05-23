@@ -23,6 +23,7 @@ public class VirtualPetApp {
 		String choice;
 
 		do {
+			
 			System.out.println("What are we going to do today?! Choose from the menu.");
 			System.out.println("1 - Tree Leaves (eat)");
 			System.out.println("2 - Run (play)");
@@ -55,8 +56,12 @@ public class VirtualPetApp {
 			System.out.println("My updated boredom level is now " + myVirtualPet.getActivity());
 			System.out.println("My updated sleepiness level is now  " + myVirtualPet.getTired());
 			System.out.println();
+			
+			myVirtualPet.tick += 5; 
+			myVirtualPet.tick(); 
 
 		} while (!choice.equals("5"));
+		
+		input.close(); 
 	}
-
-}
+}	

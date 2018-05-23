@@ -5,6 +5,7 @@ public class VirtualPet {
 	private int hunger;
 	private int tired;
 	private int activity;
+	public int tick;
 
 	public VirtualPet(int hunger, int tired, int activity) {
 		this.hunger = hunger;
